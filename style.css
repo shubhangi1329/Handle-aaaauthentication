@@ -1,0 +1,83 @@
+body{
+  background-color: black;  
+  color:white;
+ margin:0;
+ padding:0;
+}
+
+.header{
+    height:30px;
+    width:100vw;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+hr{
+    color: white;
+}
+
+#buttons{
+    display:flex;
+    justify-content:space-around !important;
+
+}
+
+#sign{
+    margin-right: 2rem;
+}
+#prof{
+    margin-right: 2rem;
+}
+.SignUpPg{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    width:90vw;
+    margin:15px 10px;
+}
+form{
+    width:80vw;
+    margin:55px 10px;
+}
+
+input{
+    border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: groove;
+  background-color: black;
+  color: white;
+  width:100%;
+}
+
+#btn{
+    margin-top: 3rem;
+    height:35px;
+    width:80px;
+}
+#container{
+    width:80vw;
+    display: flex;
+    justify-content:center;
+    /* align-items: center; */
+    flex-direction: column;
+    margin:30px 40px;
+}
+
+#btn2{
+    width:60px;
+}
+#green{
+    color:green;
+}
+#red{
+    color:red
+}
+a{
+    color: white;
+    
+}

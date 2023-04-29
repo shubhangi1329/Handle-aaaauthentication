@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="page1">
+    <div class="header">
+        <div id="head">Header</div>
+        <div id="buttons">
+            <div id="sign"><a href="index.html">SignUp</a></div>
+            <div id="prof"><a href="page2.html">Profile</a></div>
+        </div>
+    </div>
+  <hr>
+  <div class="SignUpPg" id="signing">
+
+    <div><h1>Sign Up</h1></div>
+    <div>
+    <form>
+       
+        <input type="text" id="fname" name="fname" required placeholder="FULL NAME"><br><br>
+        <input type="email" id="email" name="fmail" required placeholder="EMAIL"><br><br>
+        <input type="password" id="pass" name="fpass" required placeholder="PASSWORD"><br><br>
+        <input type="password" id="cpass" name="cpass" required placeholder="CONFIRM PASSWORD"><br><br>
+        <p id="status"></p>
+        <button id="btn" onclick="getData(event)">Signup</button>
+
+    </form>
+    </div>
+  </div>
+
+
+    <script src="scipt.js"></script>
+    
+    
+</body>
+</html>
