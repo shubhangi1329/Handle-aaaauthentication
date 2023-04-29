@@ -43,6 +43,11 @@ setTimeout(function(){
  }
 
 }
+//if local storage exist user can go to signu pg
+var user=JSON.parse(localStorage.getItem("obj"));
+if((user) || (user.token)){
+    window.location.href="page2.html"
+}
 
 //generate token fn
 
